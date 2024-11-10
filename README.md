@@ -120,18 +120,6 @@ Once the system is set up, any new file uploaded to the source bucket will autom
 
 ---
 
-## Contributions
-
-Feel free to fork this repository and contribute improvements or feature additions. For bug fixes or suggestions, open an issue, and I’ll be happy to collaborate.
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
 ### Notes:
 
 - **Versioning**: You can enable versioning in the backup bucket to store multiple versions of the same file.
