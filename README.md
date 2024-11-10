@@ -33,13 +33,7 @@ This system automates the process of backing up files using AWS services. The La
 ---
 
 ## Architecture
-
-The architecture consists of the following components:
-1. **Source S3 Bucket**: The bucket where files are uploaded.
-2. **Backup S3 Bucket**: The bucket where files are automatically backed up.
-3. **AWS Lambda Function**: A serverless function that copies files from the source bucket to the backup bucket whenever a new file is uploaded.
-4. **S3 Event Notification**: Configured on the source bucket to trigger the Lambda function.
-
+![Untitled Diagram drawio(2)](https://github.com/user-attachments/assets/9cfb5c1f-9297-40ee-8062-e59b7d2e660c)
 ---
 
 ## Prerequisites
