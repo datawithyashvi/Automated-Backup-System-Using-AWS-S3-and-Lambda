@@ -2,8 +2,6 @@
 
 This repository contains an automated backup system that uses **AWS S3** and **AWS Lambda** to automatically copy files uploaded to one S3 bucket (source bucket) to another S3 bucket (backup bucket). This ensures that your data is automatically backed up every time a new file is added to the source bucket.
 
----
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -19,8 +17,6 @@ This repository contains an automated backup system that uses **AWS S3** and **A
 - [Usage](#usage)
 - [Monitoring and Logs](#monitoring-and-logs)
 
----
-
 ## Overview
 
 This system automates the process of backing up files using AWS services. The Lambda function is triggered automatically whenever a new file is uploaded to the source S3 bucket. It then copies the file to a backup S3 bucket.
@@ -30,19 +26,15 @@ This system automates the process of backing up files using AWS services. The La
 - Uses AWS Lambda to handle the automation.
 - Simple to set up and cost-effective.
 
----
 
 ## Architecture
 ![Untitled Diagram drawio(2)](https://github.com/user-attachments/assets/9cfb5c1f-9297-40ee-8062-e59b7d2e660c)
----
 
 ## Prerequisites
 
 Before you begin, ensure you have the following:
 - **AWS Account**: Set up with access to **AWS Lambda** and **S3**.
 - **IAM Role with Permissions**: Create an IAM role that grants Lambda access to the S3 buckets.
-
----
 
 ## Setup Instructions
 
@@ -97,21 +89,15 @@ To test the system:
 2. Check your backup S3 bucket to confirm that the file was automatically copied.
 3. View **AWS Lambda Logs** in **CloudWatch** to ensure the function executed correctly.
 
----
-
 ## Usage
 
 Once the system is set up, any new file uploaded to the source bucket will automatically be copied to the backup bucket. You can monitor the Lambda function’s execution via **CloudWatch Logs** to track backups and any errors.
-
----
 
 ## Monitoring and Logs
 
 1. Go to **CloudWatch Console**.
 2. Select **Logs** and find the log group for your Lambda function.
 3. Review the logs to check for successful backups or errors in execution.
-
----
 
 ### Notes:
 
