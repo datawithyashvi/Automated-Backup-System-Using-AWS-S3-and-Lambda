@@ -18,8 +18,6 @@ This repository contains an automated backup system that uses **AWS S3** and **A
   - [Step 6: Test the System](#step-6-test-the-system)
 - [Usage](#usage)
 - [Monitoring and Logs](#monitoring-and-logs)
-- [Contributions](#contributions)
-- [License](#license)
 
 ---
 
@@ -75,6 +73,7 @@ Follow these steps to set up the automated backup system:
 5. Click **Create Function**.
 
 ### Step 3: Write Lambda Function Code
+[Lambda function](lambda_function.py)
 
 ### Step 4: Set IAM Role Permissions
 
